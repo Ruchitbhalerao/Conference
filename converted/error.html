@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>This page didn't load — ICIPTT 2027</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- __root.tsx -> ErrorComponent (the `reset()` half is a page reload here) -->
+    <main class="status-page">
+      <div class="status-box">
+        <h1 class="status-title">This page didn't load</h1>
+        <p class="status-text">
+          Something went wrong on our end. You can try refreshing or head back home.
+        </p>
+        <div class="status-actions">
+          <button class="btn--status-primary" type="button" data-reload>
+            Try again
+          </button>
+          <a class="btn--status-secondary" href="index.html">Go home</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
